@@ -1,0 +1,1 @@
+# Global_covid_dynamics
