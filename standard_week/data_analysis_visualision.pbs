@@ -1,0 +1,17 @@
+#!/bin/sh
+##Using standard queue
+#PBS -q stdq1
+##Request 1 nodes, 1 cores on each node
+#PBS -l select=1:ncpus=1:mem=100gb
+##Job will be terminated after walltime
+#PBS -l walltime=240:00:00
+##Give the job a name
+#PBS -N GloStd_data 
+##Standard output folder
+#PBS -o /home/Dong/Global_COVID/standard_week/Global_data.OU
+##Error output folder
+#PBS -e /home/Dong/Global_COVID/standard_week/Global_data.ER
+##Verbose output
+#PBS -V
+module load r/4.0.5
+Rscript /home/Dong/Global_COVID/standard_week/data_analysis_visualision.R

@@ -1,0 +1,7 @@
+"VOC_Type","File_Name","Countries","Time_Points","Total_Cases","Nonzero_Points","Max_Cases","Active_Countries","Nonzero_Percentage"
+"VOC Omicron","VOC_VOC_Omicron_timeseries.csv",18,244,380899202.639716,2071,40475477,NA,47.15
+"VOC Delta","VOC_VOC_Delta_timeseries.csv",18,244,85025281.9468935,1221,2678712.16958878,NA,27.8
+"VOC Alpha","VOC_VOC_Alpha_timeseries.csv",18,244,44989902.2089204,803,1462064.96428571,NA,18.28
+"VOC Beta","VOC_VOC_Beta_timeseries.csv",18,244,2537080.19468873,464,124525.376899696,NA,10.56
+"VOC Gamma","VOC_VOC_Gamma_timeseries.csv",18,244,19540544.009781,459,505489.913531724,NA,10.45
+"VOC Original","VOC_VOC_Original_timeseries.csv",18,244,18445584,664,504433,NA,15.12
