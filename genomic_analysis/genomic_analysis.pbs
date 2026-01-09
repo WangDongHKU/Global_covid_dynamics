@@ -1,0 +1,17 @@
+#!/bin/sh
+##Using standard queue
+#PBS -q stdq1
+##Request 1 nodes, 4 cores on each node
+#PBS -l select=1:ncpus=16:mem=160gb
+##Job will be terminated after walltime
+#PBS -l walltime=240:00:00
+##Give the job a name
+#PBS -N genomic
+##Standard output folder
+#PBS -o /home/Dong/Global_COVID/genomic_analysis/genomic.ou
+##Error output folder
+#PBS -e /home/Dong/Global_COVID/genomic_analysis/genomic.ER
+##Verbose output
+#PBS -V
+module load r/4.0.5
+Rscript /home/Dong/Global_COVID/genomic_analysis/genomic_analysis.R
